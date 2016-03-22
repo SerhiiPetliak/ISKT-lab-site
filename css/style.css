@@ -1,0 +1,26 @@
+.a{
+	background-color: #ccc;
+	height: 100vh;
+}
+.aa{
+	background-color: #000;
+	height: 100vh;
+}
+.b{
+	border: 1px solid #000;
+	height: 100px;
+}
+.logo .txt1 {
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Roboto';
+    font-weight: 80;
+    color: #fff;
+}
+.logo .txt2 {
+    font-size: 34px;
+    line-height: 34px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #fff;
+}
