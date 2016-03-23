@@ -108,7 +108,7 @@ $(document).ready(function() {
           }, 300 );
     });
 
-    $(".ocbtrb").click(function(){
+    $(".main_menu_right_bottom").click(function(){
       $(".contacts_block").animate({
             bottom: "2%"
           }, 300 );
@@ -128,6 +128,17 @@ $(document).ready(function() {
     $(".aub_close").click(function(){
       $(".about_us_block").animate({
             left: "-100%"
+          }, 300 );
+    });
+
+    $(".main_menu_right_bottom").click(function(){
+      $(".contacts_block").animate({
+            bottom: "0%"
+          }, 300 );
+    });
+    $(".cb_close").click(function(){
+      $(".contacts_block").animate({
+            bottom: "-100%"
           }, 300 );
     });
 }
