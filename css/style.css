@@ -235,3 +235,11 @@ a:hover{
 .boss_block{
     padding: 20px 0px 20px 0px;
 }
+.fa-angle-left{
+    position: absolute;
+    bottom: 3px;
+}
+.fa-angle-right{
+    position: absolute;
+    bottom: 3px;
+}
