@@ -97,7 +97,7 @@ $(document).ready(function() {
           }, 300 );
     });
 
-    $(".ocbtlb").click(function(){
+    $(".main_menu_left_bottom").click(function(){
       $(".documents_block").animate({
             right: "2%"
           }, 300 );
@@ -139,6 +139,17 @@ $(document).ready(function() {
     $(".cb_close").click(function(){
       $(".contacts_block").animate({
             bottom: "-100%"
+          }, 300 );
+    });
+
+    $(".main_menu_left_bottom").click(function(){
+      $(".documents_block").animate({
+            right: "2%"
+          }, 300 );
+    });
+    $(".db_close").click(function(){
+      $(".documents_block").animate({
+            right: "-100%"
           }, 300 );
     });
 }
