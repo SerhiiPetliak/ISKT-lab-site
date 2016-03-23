@@ -39,24 +39,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.a{
-	height: 30vh;
-	}
-	.aa{
-		background-color: #000;
-		height: 70vh;
-	}
+	
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.a{
-	height: 30vh;
-	}
-	.aa{
-		background-color: #000;
-		height: 70vh;
-	}
+	
 }
 
 
@@ -64,80 +52,227 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-	.a{
-	height: 30vh;
+	.logo{
+		display: none;
 	}
-	.aa{
-		background-color: #000;
-		height: 70vh;
+	.main_title_block{
+		display: block;
+		height: 10vh;
 	}
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-	.a{
-	height: 30vh;
-	}
-	.aa{
-		background-color: #000;
-		height: 70vh;
-	}
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	.a{
-	height: 30vh;
-	}
-	.aa{
+	.main_left_block{
 		background-color: #000;
 		height: 70vh;
     	background: url(../img/bg1.jpg) fixed no-repeat center center;
     	background-size: cover;
 	}
+	.main_right_block{
+		height: 20vh;
+		padding-top: 0vh;
+	}
+	.main_menu_left_top,
+	.main_menu_right_top,
+	.main_menu_left_bottom,
+	.main_menu_right_bottom{
+		height: 20vh;
+	}
+	.main_menu_left_top{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_top{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_left_bottom{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_bottom{
+	}
+	.our_command_block_icon{
+    	left: 27%;
+	}
+	.main_menu{
+		padding-top: 3%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
 	.logo{
 		display: none;
 	}
-	.title_block{
+	.main_title_block{
 		display: block;
+		height: 10vh;
+	}
+	.main_left_block{
+		background-color: #000;
+		height: 70vh;
+    	background: url(../img/bg1.jpg) fixed no-repeat center center;
+    	background-size: cover;
+	}
+	.main_right_block{
+		height: 20vh;
+		padding-top: 0vh;
+	}
+	.main_menu_left_top,
+	.main_menu_right_top,
+	.main_menu_left_bottom,
+	.main_menu_right_bottom{
+		height: 20vh;
+	}
+	.main_menu_left_top{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_top{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_left_bottom{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_bottom{
+	}
+	.our_command_block_icon{
+    	left: 27%;
+	}
+	.main_menu{
+		padding-top: 3%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.logo{
+		display: none;
+	}
+	.main_title_block{
+		display: block;
+		height: 10vh;
+	}
+	.main_left_block{
+		background-color: #000;
+		height: 70vh;
+    	background: url(../img/bg1.jpg) fixed no-repeat center center;
+    	background-size: cover;
+	}
+	.main_right_block{
+		height: 20vh;
+		padding-top: 0vh;
+	}
+	.main_menu_left_top,
+	.main_menu_right_top,
+	.main_menu_left_bottom,
+	.main_menu_right_bottom{
+		height: 20vh;
+	}
+	.main_menu_left_top{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_top{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_left_bottom{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_bottom{
+	}
+	.our_command_block_icon{
+    	left: 27%;
+	}
+	.main_menu{
+		padding-top: 3%;
 	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.a{
-	height: 100vh;
+	.logo{
+		display: block;
 	}
-	.aa{
+	.main_title_block{
+		display: none;
+	}
+	.main_left_block{
 		background-color: #000;
 		height: 100vh;
     	background: url(../img/bgLg.jpg);
     	background-size: cover;
+		padding-top: 5vh;
 	}
-	.logo{
-		display: block;
+	.main_right_block{
+		height: 100vh;
+	}	
+	.main_menu_block{
+		margin-top: 5vh;
 	}
-	.title_block{
-		display: none;
+	.main_menu_left_top,
+	.main_menu_right_top,
+	.main_menu_left_bottom,
+	.main_menu_right_bottom{
+		height: 150px;
+	}
+	.main_menu_left_top{
+	    border-right: 1px solid #1c212a;
+	    border-bottom: 1px solid #1c212a;
+	}
+	.main_menu_right_top{
+	    border-bottom: 1px solid #1c212a;
+	}
+	.main_menu_left_bottom{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_bottom{
+	}
+	.our_command_block_icon{
+    	left: 40%;
+	}
+	.main_menu{
+		padding-top: 5%;
 	}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	.a{
-	height: 100vh;
+	.logo{
+		display: block;
 	}
-	.aa{
+	.main_title_block{
+		display: none;
+	}
+	.main_left_block{
 		background-color: #000;
 		height: 100vh;
     	background: url(../img/bgLg.jpg);
     	background-size: cover;
 	}
-	.logo{
-		display: block;
+	.main_right_block{
+		height: 100vh;
+		padding-top: 5vh;
+	}	
+	.main_menu_block{
+		margin-top: 5vh;
 	}
-	.title_block{
-		display: none;
+	.main_menu_left_top,
+	.main_menu_right_top,
+	.main_menu_left_bottom,
+	.main_menu_right_bottom{
+		height: 150px;
+	}
+	.main_menu_left_top{
+	    border-right: 1px solid #1c212a;
+	    border-bottom: 1px solid #1c212a;
+	}
+	.main_menu_right_top{
+	    border-bottom: 1px solid #1c212a;
+	}
+	.main_menu_left_bottom{
+	    border-right: 1px solid #1c212a;
+	}
+	.main_menu_right_bottom{
+	}
+	.our_command_block_icon{
+    	left: 40%;
+	}
+	.main_menu{
+		padding-top: 5%;
 	}
 }
 /* Large Devices, Wide Screens */
