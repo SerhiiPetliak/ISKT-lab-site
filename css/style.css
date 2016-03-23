@@ -184,10 +184,12 @@ a:hover{
     font-size: 20px;
 }
 .cb_close:hover,
-.db_close:hover{
+.db_close:hover,
+.acb_close{
     cursor: pointer;
 }
-.db_close{
+.db_close,
+.acb_close{
     position: absolute;
     right: 15px;
 }
@@ -213,4 +215,23 @@ a:hover{
     background-color: #009688;
     padding: 30px;
     border-bottom: 1px solid #14171E;
+}
+
+
+.bgg{
+    border: 0px solid red;
+    height: 200px;
+    background-color: #2C313C;
+}
+.bggg{
+    border: 0px solid red;
+    height: 200px;
+}
+
+.aaa{
+    background: url(../img/manager2.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.boss_block{
+    padding: 20px 0px 20px 0px;
 }
