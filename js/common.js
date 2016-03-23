@@ -74,5 +74,49 @@ $(document).ready(function() {
           }, 250 );
     	$(".ocbtrb").css("display","none");
     });
+/**/
+    $(".ocbtlt").click(function(){
+      $(".about_us_block").animate({
+            left: "2%"
+          }, 300 );
+    });
+    $(".aub_close").click(function(){
+      $(".about_us_block").animate({
+            left: "-100%"
+          }, 300 );
+    });
+
+    $(".ocbtrt").click(function(){
+      $(".our_command_block").animate({
+            top: "2%"
+          }, 300 );
+    });
+    $(".acb_close").click(function(){
+      $(".our_command_block").animate({
+            top: "-100%"
+          }, 300 );
+    });
+
+    $(".ocbtlb").click(function(){
+      $(".documents_block").animate({
+            right: "2%"
+          }, 300 );
+    });
+    $(".db_close").click(function(){
+      $(".documents_block").animate({
+            right: "-100%"
+          }, 300 );
+    });
+
+    $(".ocbtrb").click(function(){
+      $(".contacts_block").animate({
+            bottom: "2%"
+          }, 300 );
+    });
+    $(".cb_close").click(function(){
+      $(".contacts_block").animate({
+            bottom: "-100%"
+          }, 300 );
+    });
   }
 });

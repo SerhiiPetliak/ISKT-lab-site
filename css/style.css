@@ -37,7 +37,7 @@ body{
     font-family: 'Roboto';
 }
 .main_left_block{
-
+    margin-top: 0px;
 }
 .main_right_block{
     background-color: #1c212a;
@@ -103,5 +103,51 @@ a:hover{
 .no_margin{
     margin-left: 6.156%;
 }
-
-
+/**/
+.about_us_block{
+    position: absolute;
+    border: 0px solid #fff;
+    background-color: #14171E;
+    width: 95%;
+    height: 96%;
+    margin-top: 2%;
+    padding: 10px;
+    color: #fff;
+    left: -100%;
+}
+.our_command_block{
+    position: absolute;
+    border: 0px solid #fff;
+    background-color: #14171E;
+    width: 95%;
+    height: 96%;
+    margin-top: 2%;
+    padding: 10px;
+    color: #fff;
+    top: -100%;
+}
+.documents_block{
+    position: absolute;
+    border: 0px solid #fff;
+    background-color: #14171E;
+    width: 95%;
+    height: 96%;
+    margin-top: 2%;
+    padding: 10px;
+    color: #fff;
+    right: -100%;
+}
+.contacts_block{
+    position: absolute;
+    border: 0px solid #fff;
+    background-color: #14171E;
+    width: 95%;
+    height: 96%;
+    margin-top: 2%;
+    padding: 10px;
+    color: #fff;
+    bottom: -100%;
+}
+.main_left_block{
+    overflow: hidden;
+}
