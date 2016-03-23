@@ -126,6 +126,9 @@ a:hover{
     padding: 10px;
     color: #fff;
     top: -100%;
+
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .documents_block{
     position: absolute;
