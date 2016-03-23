@@ -24,26 +24,98 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 
-    
+    <link href="css/hover.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
+
+    <style>
+        .hvr-sweep-to-left {
+            cursor: pointer;
+
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            position: relative;
+            -webkit-transition-property: color;
+            transition-property: color;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+        }
+
+        
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $(".b").mouseover(function(event) {
+                $(".main_menu_icon_block").animate({
+                    left: 0
+                  }, 500 );
+            });
+            $(".b").mouseleave(function(event) {
+                $(".main_menu_icon_block").animate({
+                    left: "40%"
+                  }, 500 );
+            });
+        });
+    </script>
 
 </head>
 
 <body>
-
     <div class="col-md-6 col-xs-12 col-sm-12 aa">s</div>
+
     <div class="title_block">Лабораторія інформаційних систем та комп'ютерних технологій</div>
-    <div class="col-md-6 col-xs-12 col-sm-12 a">
-        <a href="/" class="logo">    
-            <div class="txt1">Лабораторія</div>
-            <div class="txt2">інформаційних систем та комп'ютерних технологій</div>    
-        </a>
-        
-        <div class="col-md-6 col-xs-3 col-sm-3 b">1</div>
-        <div class="col-md-6 col-xs-3 col-sm-3 b">2</div>
-        <div class="col-md-6 col-xs-3 col-sm-3 b">3</div>
-        <div class="col-md-6 col-xs-3 col-sm-3 b">4</div>
+
+    <div class="col-md-6 col-xs-12 col-sm-12 a" style="padding-top: 5vh;">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-3 col-sm-3 b">
+                <a href="/" class="logo">    
+                    <div class="txt1">Лабораторія</div>
+                    <div class="txt2">інформаційних систем та комп'ютерних технологій</div>    
+                </a>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 5vh;">
+            <div class="col-md-5 col-md-offset-1 col-xs-3 col-sm-3 b q hvr-sweep-to-left qq">
+                <div class="main_menu_icon_block">                    
+                    <i class="fa fa-info-circle"></i>
+
+                    Про нас</p>
+                </div>
+            </div>
+            <div class="col-md-5 col-xs-3 col-sm-3 b q hvr-sweep-to-left ww">
+                <div class="col-md-3">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="col-md-9">
+                    Команда
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-1 col-xs-3 col-sm-3 b q hvr-sweep-to-left">
+                <div class="col-md-3">
+                    <i class="fa fa-file-pdf-o"></i>
+                </div>
+                <div class="col-md-9">
+                    Офіційні документи
+                </div>
+            </div>
+            <div class="col-md-5 col-xs-3 col-sm-3 b q hvr-sweep-to-left">
+                <div class="col-md-3">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="col-md-9">
+                    Контакти
+                </div>
+            </div>
+        </div>
 
     </div>
 
