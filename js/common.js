@@ -74,8 +74,8 @@ $(document).ready(function() {
           }, 250 );
     	$(".ocbtrb").css("display","none");
     });
-/**/
-    $(".ocbtlt").click(function(){
+/* Вызов страницы в левой части экрана*/
+    $(".main_menu_left_top").click(function(){
       $(".about_us_block").animate({
             left: "2%"
           }, 300 );
@@ -118,5 +118,17 @@ $(document).ready(function() {
             bottom: "-100%"
           }, 300 );
     });
-  }
+}else{
+    /* Вызов страницы в левой части экрана*/
+    $(".main_menu_left_top").click(function(){
+      $(".about_us_block").animate({
+            left: "0%"
+          }, 300 );
+    });
+    $(".aub_close").click(function(){
+      $(".about_us_block").animate({
+            left: "-100%"
+          }, 300 );
+    });
+}
 });
