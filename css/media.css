@@ -87,10 +87,11 @@
 	.main_menu_right_bottom{
 	}
 	.our_command_block_icon{
+		padding-top: 0px;
     	left: 27%;
 	}
 	.main_menu{
-		padding-top: 3%;
+		padding-top: 2%;
 	}
 	.about_us_block{	/*Делаю блок для маленьких дисплеев*/
 		width: 100%;
@@ -136,10 +137,11 @@
 	.main_menu_right_bottom{
 	}
 	.our_command_block_icon{
-    	left: 27%;
+		padding-top: 0px;
+    	left: 37%;
 	}
 	.main_menu{
-		padding-top: 3%;
+		padding-top: 5px;
 	}
 	.about_us_block{	/*Делаю блок для маленьких дисплеев*/
 		width: 100%;
@@ -185,10 +187,11 @@
 	.main_menu_right_bottom{
 	}
 	.our_command_block_icon{
-    	left: 27%;
+		padding-top: 0px;
+    	left: 37%;
 	}
 	.main_menu{
-		padding-top: 3%;
+		padding-top: 5px;
 	}
 	.about_us_block{	/*Делаю блок для маленьких дисплеев*/
 		width: 100%;

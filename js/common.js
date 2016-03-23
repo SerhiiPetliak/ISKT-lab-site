@@ -8,7 +8,7 @@ $(document).ready(function() {
             left: "20%"
           }, 300 );
         $(".ocbtlt").animate({
-            top: "35%"
+            top: "32%"
           }, 250 );        
     });
     $(".main_menu_left_top").mouseleave(function(event) {
@@ -25,7 +25,7 @@ $(document).ready(function() {
             left: "20%"
           }, 300 );
         $(".ocbtrt").animate({
-            top: "35%"
+            top: "32%"
           }, 250 );        
     });
     $(".main_menu_right_top").mouseleave(function(event) {
@@ -43,7 +43,7 @@ $(document).ready(function() {
             left: "20%"
           }, 300 );
         $(".ocbtlb").animate({
-            bottom: "35%"
+            bottom: "32%"
           }, 250 );        
     });
     $(".main_menu_left_bottom").mouseleave(function(event) {
@@ -62,7 +62,7 @@ $(document).ready(function() {
             left: "20%"
           }, 300 );
         $(".ocbtrb").animate({
-            bottom: "35%"
+            bottom: "32%"
           }, 250 );        
     });
     $(".main_menu_right_bottom").mouseleave(function(event) {
