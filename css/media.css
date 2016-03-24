@@ -217,7 +217,7 @@
 	.main_left_block{
 		background-color: #000;
 		height: 100vh;
-    	background: url(../img/bgLg.jpg);
+    	background: url(../img/bgLg.jpg) center center;
     	background-size: cover;
 	}
 	.main_right_block{
@@ -268,7 +268,7 @@
 	.main_left_block{
 		background-color: #000;
 		height: 100vh;
-    	background: url(../img/bgLg.jpg);
+    	background: url(../img/bgLg.jpg) center center;
     	background-size: cover;
 	}
 	.main_right_block{

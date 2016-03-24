@@ -310,3 +310,14 @@ a:hover{
     color: #fff;
     font-weight: 700;
 }
+.linux{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.link_znu{
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
