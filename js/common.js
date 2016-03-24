@@ -76,6 +76,11 @@ $(document).ready(function() {
     });
 /* Вызов страницы в левой части экрана*/
     $(".main_menu_left_top").click(function(){
+
+      $(".our_command_block").css("top","-100%");
+      $(".documents_block").css("right","-100%");
+      $(".contacts_block").css("bottom","-100%");
+
       $(".about_us_block").animate({
             left: "2%"
           }, 300 );
@@ -87,6 +92,11 @@ $(document).ready(function() {
     });
 
     $(".main_menu_right_top").click(function(){
+
+      $(".about_us_block").css("left","-100%");
+      $(".documents_block").css("right","-100%");
+      $(".contacts_block").css("bottom","-100%");
+
       $(".our_command_block").animate({
             top: "2%"
           }, 300 );
@@ -96,8 +106,18 @@ $(document).ready(function() {
             top: "-100%"
           }, 300 );
     });
+    $(".acb_close_button").click(function(){
+      $(".our_command_block").animate({
+            top: "-100%"
+          }, 300 );
+    });
 
     $(".main_menu_left_bottom").click(function(){
+
+      $(".about_us_block").css("left","-100%");
+      $(".our_command_block").css("top","-100%");
+      $(".contacts_block").css("bottom","-100%");
+
       $(".documents_block").animate({
             right: "2%"
           }, 300 );
@@ -109,6 +129,11 @@ $(document).ready(function() {
     });
 
     $(".main_menu_right_bottom").click(function(){
+
+      $(".about_us_block").css("left","-100%");
+      $(".our_command_block").css("top","-100%");
+      $(".documents_block").css("right","-100%");
+
       $(".contacts_block").animate({
             bottom: "2%"
           }, 300 );
@@ -159,6 +184,11 @@ $(document).ready(function() {
           }, 300 );
     });
     $(".acb_close").click(function(){
+      $(".our_command_block").animate({
+            top: "-100%"
+          }, 300 );
+    });
+    $(".acb_close_button").click(function(){
       $(".our_command_block").animate({
             top: "-100%"
           }, 300 );
