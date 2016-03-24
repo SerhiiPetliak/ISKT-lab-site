@@ -186,7 +186,7 @@ a:hover{
     width: 100%;
     height: 300px;
     background: rgba(0,0,0, 0.6);
-    top: 20%;
+    top: 25%;
     font-size: 20px;
 }
 .cb_close:hover,
@@ -228,6 +228,7 @@ a:hover{
     border: 0px solid red;
     height: 200px;
     background-color: #2C313C;
+    padding: 3px;
 }
 .bggg{
     border: 0px solid red;
@@ -235,7 +236,39 @@ a:hover{
 }
 
 .aaa{
-    background: url(../img/manager2.jpg)  no-repeat center center;
+    background: url(../img/user.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.w{
+    background: url(../img/w.png)  no-repeat center center;
+    background-size: cover;
+}
+.natasha{
+    background: url(../img/natasha.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.iam{
+    background: url(../img/i.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.katya{
+    background: url(../img/katya.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.tanya{
+    background: url(../img/tanya.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.ser{
+    background: url(../img/ser.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.misha{
+    background: url(../img/misha.jpg)  no-repeat center center;
+    background-size: cover;
+}
+.aleksey{
+    background: url(../img/aleksey.jpg)  no-repeat center center;
     background-size: cover;
 }
 .boss_block{
@@ -248,6 +281,7 @@ a:hover{
 .fa-angle-right{
     position: absolute;
     bottom: 3px;
+    right: 3px;
 }
 .doc_download{
     position: absolute;

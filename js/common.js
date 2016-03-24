@@ -43,7 +43,7 @@ $(document).ready(function() {
             left: "20%"
           }, 300 );
         $(".ocbtlb").animate({
-            bottom: "32%"
+            bottom: "40%"
           }, 250 );        
     });
     $(".main_menu_left_bottom").mouseleave(function(event) {
@@ -62,7 +62,7 @@ $(document).ready(function() {
             left: "20%"
           }, 300 );
         $(".ocbtrb").animate({
-            bottom: "32%"
+            bottom: "40%"
           }, 250 );        
     });
     $(".main_menu_right_bottom").mouseleave(function(event) {
