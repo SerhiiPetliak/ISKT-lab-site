@@ -86,7 +86,7 @@ $(document).ready(function() {
           }, 300 );
     });
 
-    $(".ocbtrt").click(function(){
+    $(".main_menu_right_top").click(function(){
       $(".our_command_block").animate({
             top: "2%"
           }, 300 );
@@ -150,6 +150,17 @@ $(document).ready(function() {
     $(".db_close").click(function(){
       $(".documents_block").animate({
             right: "-100%"
+          }, 300 );
+    });
+
+    $(".main_menu_right_top").click(function(){
+      $(".our_command_block").animate({
+            top: "2%"
+          }, 300 );
+    });
+    $(".acb_close").click(function(){
+      $(".our_command_block").animate({
+            top: "-100%"
           }, 300 );
     });
 }

@@ -140,6 +140,9 @@ a:hover{
     padding: 10px;
     color: #fff;
     right: -100%;
+
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .contacts_block{
     position: absolute;
@@ -245,4 +248,19 @@ a:hover{
 .fa-angle-right{
     position: absolute;
     bottom: 3px;
+}
+.doc_download{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+.doc_download:hover{
+    -webkit-box-shadow: 3px 4px 9px 0px rgba(50, 50, 50, 0.33);
+    -moz-box-shadow:    3px 4px 9px 0px rgba(50, 50, 50, 0.33);
+    box-shadow:         3px 4px 9px 0px rgba(50, 50, 50, 0.33);
+    color: #fff;
+    font-weight: 700;
 }
