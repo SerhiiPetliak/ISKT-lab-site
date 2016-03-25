@@ -101,6 +101,12 @@
 	.contacts_text {	    
     	font-size: 16px;
 	}
+	.linux{
+		display: none;
+	}
+	.link_znu{
+		display: none
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -154,6 +160,12 @@
 	.contacts_text {	    
     	font-size: 16px;
 	}
+	.linux{
+		display: none;
+	}
+	.link_znu{
+		display: none
+	}
 }
 
 /* Small Devices, Tablets */
@@ -203,6 +215,12 @@
 		width: 100%;
 		height: 100%;
     	margin-top: 0%;
+	}
+	.linux{
+		display: none;
+	}
+	.link_znu{
+		display: none
 	}
 }
 
@@ -255,6 +273,12 @@
     	height: 96%;
     	margin-top: 2%;
 	}
+	.linux{
+		display: block;
+	}
+	.link_znu{
+		display: block
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -301,6 +325,12 @@
 	}
 	.main_menu{
 		padding-top: 6%;
+	}
+	.linux{
+		display: block;
+	}
+	.link_znu{
+		display: block
 	}
 }
 /* Large Devices, Wide Screens */
